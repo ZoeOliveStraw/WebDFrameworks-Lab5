@@ -1,5 +1,6 @@
 @RestController
-class ThisWillActuallyRun {
+class ThisWillActuallyRun
+{
 
     @GetMapping("/")
     String home() {
